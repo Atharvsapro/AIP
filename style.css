@@ -1,0 +1,200 @@
+
+@import url ('https://fonts.googleapis.com/css?family=Poppins')
+{
+    padding: 0;
+    margin: 0;
+
+}
+
+.wrapper{
+    background: url(https://i.pinimg.com/originals/68/0a/60/680a60d6f6ddb3c992e6d1b65b192ae5.gif)
+no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0,0, 0.4)
+}
+.navbar ul{
+
+    float: right;
+    margin-right: 20px;
+
+}
+.navbar li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+ font-family: 'Poppins';
+ transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: darkcyan;
+    border-radius: 2px;
+}
+
+.center h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 885px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+    font-family: 'Poppins';
+}
+
+.Product1{
+    color: white;
+    font-family: 'Poppins';
+    ;
+    height: 1500x;
+    width: 750px;
+    background-color: #302f30;
+  
+    animation-name: Colour-Change;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  align: center;
+  transition: transform .2s;
+}
+.Product1:hover {
+    transform: scale(1.02);
+}
+  @keyframes Colour-Change {
+    0%   {background-color:#302f30 }
+    25%  {background-color:#212121;}
+    50%  {background-color:#202020;}
+    75%  {background-color:#000000;}
+    100% {background-color:#302f30;}
+  }
+      
+  .Product2{
+    color: white;
+    font-family: 'Poppins';
+    ;
+    height: 1500x;
+    width: 750px;
+    background-color: #302f30;
+  
+    animation-name: Colour-Change2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  align: center;
+  transition: transform .2s;
+}
+.Product2:hover {
+    transform: scale(1.02);
+}
+  @keyframes Colour-Change2{
+    0%   {background-color:#302f30 }
+    25%  {background-color:#212121;}
+    50%  {background-color:#202020;}
+    75%  {background-color:#000000;}
+    100% {background-color:#302f30;}
+  }
+
+  .Product3{
+    color: white;
+    font-family: 'Poppins';
+    ;
+    height: 1500x;
+    width: 750px;
+    background-color: #302f30;
+  
+    animation-name: Colour-Change3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  align: center;
+  transition: transform .2s;
+}
+.Product3:hover {
+    transform: scale(1.02);
+}
+  @keyframes Colour-Change3{
+    0%   {background-color:#302f30 }
+    25%  {background-color:#212121;}
+    50%  {background-color:#202020;}
+    75%  {background-color:#000000;}
+    100% {background-color:#302f30;}
+  }
+  .Product4{
+    color: white;
+    font-family: 'Poppins';
+    ;
+    height: 1500x;
+    width: 750px;
+    background-color: #302f30;
+  
+    animation-name: Colour-Change4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  align: center;
+  transition: transform .2s;
+}
+.Product4:hover {
+    transform: scale(1.02);
+}
+  @keyframes Colour-Change4{
+    0%   {background-color:#302f30 }
+    25%  {background-color:#212121;}
+    50%  {background-color:#202020;}
+    75%  {background-color:#000000;}
+    100% {background-color:#302f30;}
+  }
+  .Product5{
+    color: white;
+    font-family: 'Poppins';
+    ;
+    height: 1500x;
+    width: 750px;
+    background-color: #302f30;
+  
+    animation-name: Colour-Change5;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  align: center;
+  transition: transform .2s;
+}
+.Product5:hover {
+    transform: scale(1.02);
+}
+  @keyframes Colour-Change4{
+    0%   {background-color:#302f30 }
+    25%  {background-color:#212121;}
+    50%  {background-color:#202020;}
+    75%  {background-color:#000000;}
+    100% {background-color:#302f30;}
+  }
+
+  
+    html {
+        scroll-behavior: smooth;
+        background-attachment: black;
+      }
+    h2{
+      font-family: 'Poppins';
+      color: white;
+    }
+.Avi{
+  border-radius: 50%;
+}
